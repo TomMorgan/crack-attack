@@ -32,6 +32,7 @@
 #endif
 #include <fstream>
 #include <iostream>
+#include <cstring>
 #include <string>
 #include <sys/stat.h>
 
