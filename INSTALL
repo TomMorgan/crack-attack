@@ -1,6 +1,6 @@
 Linux instructions:
 
-On Debian, you need build-essential and freeglut3-dev
+On Debian and Ubuntu, you need build-essential and freeglut3-dev
 
 So, do:
 
