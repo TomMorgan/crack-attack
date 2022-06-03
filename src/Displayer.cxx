@@ -26,13 +26,14 @@
  */
 
 #include <string>
+#include <cstring>
 #include <ctype.h>
 #if defined(__MACH__) && defined(__APPLE__)
 #include <GLUT/glut.h>
 #else
 #include <GL/glut.h>
 #endif
-#include <OpenGL/glext.h>
+#include <GL/glext.h>
 
 #ifndef _WIN32
 #else
