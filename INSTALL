@@ -6,8 +6,13 @@ So, do:
 
   sudo apt install build-essential freeglut3-dev
 
-It works for me on Debian 11.3 (Bullseye), and should work on all
-Debian derivatives similarly.
+It works for me on Debian 11.3 (Bullseye), and should work on
+a lot of Debian derivatives similarly.
+
+For MX Linux, try:
+
+  sudo apt install mesa-common-dev
+  sudo apt install freeglut3
 
 For Archlinux, try:
 
