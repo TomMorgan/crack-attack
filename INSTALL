@@ -11,6 +11,11 @@ It works for me on Debian 11.3 (Bullseye)
 For Archlinux, try:
 
   pacman -S base-devel automake freeglut libgl glu glibc
+  
+For CentOS, try:
+
+  sudo yum groupinstall "Development Tools"
+  sudo yum install freeglut-devel
 
 Please add instructions for your own system if you have them. From 
 there, follow basic instructions:
