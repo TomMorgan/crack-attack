@@ -1,3 +1,39 @@
+Linux instructions:
+
+On Debian, you need build-essential and freeglut3-dev
+
+So, do:
+
+sudo apt install build-essential freeglut3-dev
+
+It works for me on Debian 11.3 (Bullseye)
+
+Please add instructions for your own system if you have them. From 
+there, follow basic instructions:
+
+If you don't want to read the whole thing, just type the commands
+
+  ./configure
+  make
+  sudo make install
+
+This will probably work on all Debian derivatives. For other systems 
+you'll need to install the dvelopment package of freeglut3, however
+this may be done, then do the same two commands:
+
+  ./configure
+  make
+
+But execute:
+
+  make install
+
+as root
+
+I believe on all systems this command will work
+
+  su -c 'make install'
+
 Basic Installation
 ==================
 
