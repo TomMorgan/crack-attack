@@ -13,6 +13,11 @@ For MX Linux, try:
 
   sudo apt install mesa-common-dev
   sudo apt install freeglut3
+  
+On Linux Mint:
+
+  sudo apt install build-essential mesa-common-dev
+  sudo apt install freeglut3-dev
 
 For Archlinux, try:
 
@@ -41,12 +46,6 @@ If you don't want to read the whole thing, just type the commands
   ./configure
   make
   sudo make install
-
-But no matter what, execute
-
-  make install
-
-as superuser
 
 Basic Installation
 ==================
