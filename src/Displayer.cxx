@@ -32,7 +32,7 @@
 #else
 #include <GL/glut.h>
 #endif
-#include <OpenGL/glext.h>
+#include <GL/glext.h>
 
 #ifndef _WIN32
 #else
