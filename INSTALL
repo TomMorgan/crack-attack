@@ -13,6 +13,10 @@ For Archlinux, try:
 
   pacman -S base-devel automake freeglut libgl glu glibc
   
+For Manjaro Linux, try:
+
+  pacman -S base-devel freeglut
+
 For CentOS (tested) and Red Hat Enterprise Linux (will probably work,
 haven't tested) try:
 
