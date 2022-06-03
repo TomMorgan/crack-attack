@@ -33,6 +33,7 @@
 #include <fstream>
 #include <iostream>
 #include <string>
+#include <cstring>
 #include <sys/stat.h>
 
 #ifndef _WIN32
