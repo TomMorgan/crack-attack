@@ -4,9 +4,13 @@ On Debian, you need build-essential and freeglut3-dev
 
 So, do:
 
-sudo apt install build-essential freeglut3-dev
+  sudo apt install build-essential freeglut3-dev
 
 It works for me on Debian 11.3 (Bullseye)
+
+For Archlinux, try:
+
+  pacman -S base-devel automake freeglut libgl glu glibc
 
 Please add instructions for your own system if you have them. From 
 there, follow basic instructions:
@@ -18,7 +22,7 @@ If you don't want to read the whole thing, just type the commands
   sudo make install
 
 This will probably work on all Debian derivatives. For other systems 
-you'll need to install the dvelopment package of freeglut3, however
+you'll need to install the development package of freeglut3, however
 this may be done, then do the same two commands:
 
   ./configure
