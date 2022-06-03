@@ -8,7 +8,7 @@
 #include <GLUT/glut.h>
 #else
 #include <GL/glut.h>
-#include <iostream.h>
+#include <iostream>
 #endif
 
 #ifndef _WIN32
