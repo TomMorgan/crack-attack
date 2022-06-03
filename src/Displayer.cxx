@@ -25,7 +25,6 @@
  * Handles all the prettyness; or uglyness, as it now stands.
  */
 
-#include <string>
 #include <cstring>
 #include <ctype.h>
 #if defined(__MACH__) && defined(__APPLE__)
